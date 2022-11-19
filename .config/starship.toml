@@ -1,14 +1,14 @@
 scan_timeout = 10
 
 format = """
-╭$username\
+$username\
 $directory\
 $git_branch\
 $git_status\
 $all\
 $fill$time\
 $line_break\
-╰$character"""
+$character"""
 
 right_format = """
 $cmd_duration\
@@ -47,9 +47,9 @@ style_root = "yellow"
 format = '[\[](fg:#fbefd0 bold)[$user]($style)[\]](fg:#fbefd0 bold)'
 
 [character]
-success_symbol = "[❯](bold green)"
-error_symbol = "[❯](bold red)"
-vimcmd_symbol = "[❮](bold green)"
+success_symbol = "[=>](bold green)"
+error_symbol = "[=>](bold red)"
+vimcmd_symbol = "[=>](bold green)"
 
 [git_branch]
 style = 'purple'

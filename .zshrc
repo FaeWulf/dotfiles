@@ -108,6 +108,12 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
+# remove ls highlight color
+_ls_colors=":ow=01;33" 
+zstyle ':completion:*:default' list-colors "${(s.:.)_ls_colors}"
+LS_COLORS+=$_ls_colors
+
+
 alias vim="nvim -u ~/.faewulf/nvim/init.lua"
 alias l="logo-ls"
 alias ls="logo-ls -s"
