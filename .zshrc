@@ -120,6 +120,11 @@ alias ls="logo-ls -s"
 alias la="logo-ls -a"
 alias ll="logo-ls -l"
 
+# show current glabal node package - global and local
+alias npackg="npm list -g --depth=0"
+alias npack="npm list --depth=0"
+
+
 eval "$(starship init zsh)"
 
 # bun completions
