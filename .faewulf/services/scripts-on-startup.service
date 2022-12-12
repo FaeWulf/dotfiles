@@ -1,0 +1,10 @@
+[Unit]
+Description=This service run once when device startup
+
+[Service]
+Type=simple
+User=faewulf
+ExecStart=$HOME/.faewulf/startup/launch.sh
+
+[Install]
+WantedBy=default.target

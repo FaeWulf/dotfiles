@@ -1,0 +1,14 @@
+[Unit]
+Description=my custom discord-rpc
+After=network.target 
+Wants=network-online.target
+
+[Service]
+Restart=always
+Type=exec
+WorkingDirectory=/home/faewulf/.faewulf/my-discord-rpc
+ExecStart=/usr/bin/node index.js
+
+[Install]
+WantedBy=default.target 
+

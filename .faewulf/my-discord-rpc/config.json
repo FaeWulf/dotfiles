@@ -1,0 +1,42 @@
+{
+	"clientID" : "890059136694386738",
+	"exitOnDiscordClose": false,
+	"UsingProgram": true,
+	"assetsCycle" : true,
+	"stateCycle" : true,
+	
+	"assets": [
+		{
+			"name": "ninim",
+			"quote": "Waifu #2: Ninim Raleigh"
+		},
+		{
+			"name": "yue",
+			"quote": "Waifu #1: Yue Aletia"
+		},
+		{
+			"name": "sofa",
+			"quote": "Game #1: Sofa Simulator"
+		}
+	],
+	"state" : [
+		"| Absorbing Dark humour",
+		"| AduDarkwa",
+		" \"Only bigat\" ",
+		"Entering BigArc mode...",
+		"Sofa coding...",
+		"Entering Faewulf mode...",
+		"Watching iAtneh"
+	],
+  	"largeImageText" : "Sofa Grand Master - Level 250",
+	"buttons": [
+		{
+			"label" : "Play with me?",
+			"url" : "https://www.youtube.com/watch?v=o-YBDTqX_ZU"
+		},
+		{
+			"label" : "My discord bot", 
+			"url" : "https://discord.com/api/oauth2/authorize?client_id=874974280495026186&permissions=534760651328&redirect_uri=http%3A%2F%2Fbigat.duckdns.org%2Fapi%2Fcallback&scope=bot%20applications.commands"
+		}
+	]
+}
